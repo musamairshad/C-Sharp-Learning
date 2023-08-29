@@ -28,6 +28,7 @@ namespace Arrays
                 }
                 */
 
+
                 intArray[i] = a;
                 a += 2;
             }
