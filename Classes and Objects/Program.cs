@@ -10,6 +10,15 @@ namespace Classes_and_Objects
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+            employee.Id = 1;
+            employee.FullName = "Usama Irshad";
+            employee.Department = "Engineering"; // Properties.
+
+            employee.login(); // Action.
+
+            Console.ReadLine();
+
         }
     }
 }
